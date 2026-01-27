@@ -23,10 +23,6 @@ logs/
 # Editor / IDE
 .vscode/
 .idea/
-*.swp
-*.swo
-*.tmp
 
 # OS junk
 .DS_Store
-Thumbs.db
