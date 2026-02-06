@@ -12,10 +12,6 @@ pnpm-lock.yaml
 dist/
 coverage/
 
-# Local env
-.env
-.env.*.local
-
 # Logs
 logs/
 *.log
