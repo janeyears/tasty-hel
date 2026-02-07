@@ -1,7 +1,8 @@
-import { useParams } from "react-router-dom"
+import React from "react";
+import { useParams } from "react-router-dom";
 
 export default function PlacePage() {
-  const { id } = useParams()
+  const { id } = useParams();
 
-  return <div>Restaurant {id}</div>
+  return <div>Restaurant {id}</div>;
 }
