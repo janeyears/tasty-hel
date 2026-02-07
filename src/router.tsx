@@ -1,11 +1,12 @@
-import { createBrowserRouter } from "react-router-dom"
-import { MainLayout } from "./components/layout/MainLayout"
+import { createBrowserRouter } from "react-router-dom";
+import { MainLayout } from "./components/layout/MainLayout";
 
-import HomePage from "./pages/HomePage"
-import PlacePage from "./pages/PlacePage"
-import ExplorePage from "./pages/ExplorePage"
-import MapPage from "./pages/MapPage"
-import SavedPage from "./pages/SavedPage"
+import HomePage from "./pages/HomePage";
+import PlacePage from "./pages/PlacePage";
+import ExplorePage from "./pages/ExplorePage";
+import MapPage from "./pages/MapPage";
+import SavedPage from "./pages/SavedPage";
+import React from "react";
 
 export const router = createBrowserRouter([
   {
@@ -34,4 +35,4 @@ export const router = createBrowserRouter([
       },
     ],
   },
-])
+]);
