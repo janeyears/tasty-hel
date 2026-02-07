@@ -16,8 +16,8 @@ coverage/
 logs/
 *.log
 
-# Editor / IDE (keep .vscode/settings.json for Tailwind @tailwind lint fix)
-# .vscode/
+# Editor / IDE
+.vscode/
 .idea/
 
 # OS junk
