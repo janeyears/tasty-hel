@@ -1,7 +1,7 @@
 import React from "react";
 
 const HomePage = () => {
-  return <h1 className="text-3xl font-bold">
+  return <h1 className="text-5xl font-bold">
   Tailwind works!
 </h1>;
 };

@@ -7,6 +7,7 @@ import ExplorePage from "./pages/ExplorePage";
 import MapPage from "./pages/MapPage";
 import SavedPage from "./pages/SavedPage";
 import React from "react";
+import LoginForm from "./components/login/LoginForm";
 
 export const router = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ export const router = createBrowserRouter([
       {
         path: "saved",
         element: <SavedPage />,
+      },
+      {
+        path: "login",
+        element: <LoginForm />,
       },
     ],
   },
