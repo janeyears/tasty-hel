@@ -8,9 +8,8 @@ export interface Restaurant {
   bookingsUrl?: string;
   favorites: string[];
   schedule: {
-	day: string;
-	open: string;
-	close: string;
+    day: string;
+    open: string;
+    close: string;
   }[];
 }
-
