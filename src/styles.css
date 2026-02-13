@@ -16,8 +16,9 @@
   --radius-md: 999px;
   --shadow-soft: 0 18px 45px rgba(0, 0, 0, 0.7);
   --shadow-subtle: 0 1px 0 rgba(255, 255, 255, 0.04);
-  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
-    "Segoe UI", sans-serif;
+  --font-sans:
+    system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI",
+    sans-serif;
 }
 
 *,
@@ -238,4 +239,3 @@ body {
     padding: 18px 18px 16px;
   }
 }
-
