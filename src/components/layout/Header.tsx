@@ -1,11 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink  } from "react-router-dom";
 import profileIcon from "../../assets/profile.svg";
 
 export function Header() {
   return (
-    <header className="border-b-2 border-primary bg-[#f2f2f2]">
+    <header className="border-b-2 border-primary bg-background">
       <div className="flex items-center h-20 px-8">
         {/* LOGO */}
         <Link
@@ -21,8 +20,8 @@ export function Header() {
             to="/"
             className={({ isActive }) =>
               isActive
-                ? "underline underline-offset-3"
-                : "hover:underline underline-offset-3"
+                ? "underline underline-offset-4"
+                : "hover:underline underline-offset-4"
             }
           >
             100% recommendation
@@ -31,8 +30,8 @@ export function Header() {
             to="/explore"
             className={({ isActive }) =>
               isActive
-                ? "underline underline-offset-3"
-                : "hover:underline underline-offset-3"
+                ? "underline underline-offset-4"
+                : "hover:underline underline-offset-4"
             }
           >
             Let&apos;s explore
@@ -42,8 +41,8 @@ export function Header() {
             to="/map"
             className={({ isActive }) =>
               isActive
-                ? "underline underline-offset-3"
-                : "hover:underline underline-offset-3"
+                ? "underline underline-offset-4"
+                : "hover:underline underline-offset-4"
             }
           >
             Map
@@ -53,8 +52,8 @@ export function Header() {
             to="/saved"
             className={({ isActive }) =>
               isActive
-                ? "underline underline-offset-3"
-                : "hover:underline underline-offset-3"
+                ? "underline underline-offset-4"
+                : "hover:underline underline-offset-4"
             }
           >
             Your favourites
