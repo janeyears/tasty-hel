@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, NavLink  } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import profileIcon from "../../assets/profile.svg";
 
 export function Header() {
@@ -18,7 +18,7 @@ export function Header() {
         <nav className="flex flex-1 items-center justify-around font-sans font-extrabold text-primary uppercase tracking-normal">
           <NavLink
             to="/"
-			end
+            end
             className={({ isActive }) =>
               isActive
                 ? "underline underline-offset-4"
