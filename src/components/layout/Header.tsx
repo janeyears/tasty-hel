@@ -1,6 +1,6 @@
-import React from "react";
-import { Link, NavLink } from "react-router-dom";
-import profileIcon from "../../assets/profile.svg";
+import React from 'react';
+import { Link, NavLink } from 'react-router-dom';
+import profileIcon from '../../assets/profile.svg';
 
 export function Header() {
   return (
@@ -20,9 +20,7 @@ export function Header() {
             to="/"
             end
             className={({ isActive }) =>
-              isActive
-                ? "underline underline-offset-4"
-                : "hover:underline underline-offset-4"
+              isActive ? 'underline underline-offset-4' : 'hover:underline underline-offset-4'
             }
           >
             100% recommendation
@@ -30,9 +28,7 @@ export function Header() {
           <NavLink
             to="/explore"
             className={({ isActive }) =>
-              isActive
-                ? "underline underline-offset-4"
-                : "hover:underline underline-offset-4"
+              isActive ? 'underline underline-offset-4' : 'hover:underline underline-offset-4'
             }
           >
             Let&apos;s explore
@@ -41,9 +37,7 @@ export function Header() {
           <NavLink
             to="/map"
             className={({ isActive }) =>
-              isActive
-                ? "underline underline-offset-4"
-                : "hover:underline underline-offset-4"
+              isActive ? 'underline underline-offset-4' : 'hover:underline underline-offset-4'
             }
           >
             Map
@@ -52,9 +46,7 @@ export function Header() {
           <NavLink
             to="/saved"
             className={({ isActive }) =>
-              isActive
-                ? "underline underline-offset-4"
-                : "hover:underline underline-offset-4"
+              isActive ? 'underline underline-offset-4' : 'hover:underline underline-offset-4'
             }
           >
             Your favourites
