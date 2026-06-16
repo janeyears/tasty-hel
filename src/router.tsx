@@ -1,17 +1,17 @@
-import { createBrowserRouter } from "react-router-dom";
-import { MainLayout } from "./components/layout/MainLayout";
+import { createBrowserRouter } from 'react-router-dom';
+import { MainLayout } from './components/layout/MainLayout';
 
-import HomePage from "./pages/HomePage";
-import PlacePage from "./pages/PlacePage";
-import ExplorePage from "./pages/ExplorePage";
-import MapPage from "./pages/MapPage";
-import SavedPage from "./pages/SavedPage";
-import React from "react";
-import LoginForm from "./components/login/LoginForm";
+import HomePage from './pages/HomePage';
+import PlacePage from './pages/PlacePage';
+import ExplorePage from './pages/ExplorePage';
+import MapPage from './pages/MapPage';
+import SavedPage from './pages/SavedPage';
+import React from 'react';
+import LoginForm from './components/login/LoginForm';
 
 export const router = createBrowserRouter([
   {
-    path: "/",
+    path: '/',
     element: <MainLayout />,
     children: [
       {
@@ -19,23 +19,23 @@ export const router = createBrowserRouter([
         element: <HomePage />,
       },
       {
-        path: "places/:id",
+        path: 'places/:id',
         element: <PlacePage />,
       },
       {
-        path: "explore",
+        path: 'explore',
         element: <ExplorePage />,
       },
       {
-        path: "map",
+        path: 'map',
         element: <MapPage />,
       },
       {
-        path: "saved",
+        path: 'saved',
         element: <SavedPage />,
       },
       {
-        path: "login",
+        path: 'login',
         element: <LoginForm />,
       },
     ],
