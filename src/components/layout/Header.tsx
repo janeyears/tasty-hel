@@ -18,6 +18,7 @@ export function Header() {
         <nav className="flex flex-1 items-center justify-around font-sans font-extrabold text-primary uppercase tracking-normal">
           <NavLink
             to="/"
+			end
             className={({ isActive }) =>
               isActive
                 ? "underline underline-offset-4"
