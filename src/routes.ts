@@ -1,7 +1,7 @@
 export const ROUTES = {
-  home: "/",
+  home: '/',
   place: (id: string) => `/places/${id}`,
-  explore: "/explore",
-  map: "/map",
-  saved: "/saved",
+  explore: '/explore',
+  map: '/map',
+  saved: '/saved',
 };

@@ -1,18 +1,13 @@
-import React from "react";
+import React from 'react';
 
 export default function LoginForm() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
       <div className="bg-white p-8 rounded shadow-md w-full max-w-md">
-        <h2 className="text-2xl font-bold mb-6 text-center">
-          Login to Tasty Hel
-        </h2>
+        <h2 className="text-2xl font-bold mb-6 text-center">Login to Tasty Hel</h2>
         <form className="space-y-6">
           <div>
-            <label
-              htmlFor="email"
-              className="block text-sm font-medium text-gray-700"
-            >
+            <label htmlFor="email" className="block text-sm font-medium text-gray-700">
               Email
             </label>
             <input
@@ -24,10 +19,7 @@ export default function LoginForm() {
             />
           </div>
           <div>
-            <label
-              htmlFor="password"
-              className="block text-sm font-medium text-gray-700"
-            >
+            <label htmlFor="password" className="block text-sm font-medium text-gray-700">
               Password
             </label>
             <input
