@@ -2,21 +2,21 @@ export const restaurants = [
   {
     id: 1,
     name: 'Holy Crab',
-    image: '/images/holy-crab.jpg',
+    image: 'src/assets/places/holy-crab.jpg',
   },
   {
     id: 2,
     name: 'Bentosi Asian Cuisine',
-    image: '/images/bentosi.jpg',
+    image: 'src/assets/places/bentosi.jpg',
   },
   {
     id: 3,
     name: 'Yeastie Boi',
-    image: '/images/yeastie-boi.jpg',
+    image: 'src/assets/places/yeastie-boi.jpg',
   },
   {
     id: 4,
     name: 'Lazy Fox',
-    image: '/images/lazy-fox.jpg',
+    image: 'src/assets/places/lazy-fox.jpg',
   },
 ];
