@@ -5,8 +5,12 @@ import { PlaceList } from '../components/features/places/PlaceList';
 const HomePage = () => {
   return (
     <div>
-      <Hero title="my personal recommendations from places where I’ve been" image="src/assets/main-hero.jpg" imageAlt="Main page image" />
-	  <PlaceList />
+      <Hero
+        title="my personal recommendations from places where I’ve been"
+        image={new URL('../assets/main-hero.jpg', import.meta.url).toString()}
+        imageAlt="Main page image"
+      />
+      <PlaceList />
     </div>
   );
 };
