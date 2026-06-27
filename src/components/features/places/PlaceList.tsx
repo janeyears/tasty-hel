@@ -21,6 +21,15 @@ export function PlaceList() {
             />
           ))}
         </div>
+		<div className="grid grid-cols-4 gap-8 py-8">
+          {restaurants.map((restaurants) => (
+            <RestaurantCard
+              key={restaurants.id}
+              name={restaurants.name}
+              image={restaurants.image}
+            />
+          ))}
+        </div>
       </div>
     </section>
   );
