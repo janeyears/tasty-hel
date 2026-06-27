@@ -1,6 +1,7 @@
 import React from 'react';
 import { RestaurantCard } from './PlaceCard';
 import {restaurants} from '../../../types/staticData';
+import { ROUTES } from '../../../routes';
 
 export function PlaceList() {
 	return (
@@ -16,6 +17,7 @@ export function PlaceList() {
           {restaurants.map((restaurants) => (
             <RestaurantCard
               key={restaurants.id}
+              href={ROUTES.place(String(restaurants.id))}
               name={restaurants.name}
               image={restaurants.image}
             />
@@ -25,6 +27,7 @@ export function PlaceList() {
           {restaurants.map((restaurants) => (
             <RestaurantCard
               key={restaurants.id}
+              href={ROUTES.place(String(restaurants.id))}
               name={restaurants.name}
               image={restaurants.image}
             />
