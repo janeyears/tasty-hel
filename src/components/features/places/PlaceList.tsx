@@ -1,5 +1,5 @@
 import React from 'react';
-import { RestaurantCard } from './PlaceCard';
+import { PlaceCard } from './PlaceCard';
 import { restaurants } from '../../../types/staticData';
 import { ROUTES } from '../../../routes';
 
@@ -13,7 +13,7 @@ export function PlaceList() {
 
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 sm:gap-8">
           {restaurants.map((restaurant) => (
-            <RestaurantCard
+            <PlaceCard
               key={restaurant.id}
               href={ROUTES.place(String(restaurant.id))}
               name={restaurant.name}

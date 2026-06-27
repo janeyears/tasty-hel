@@ -1,12 +1,12 @@
 import React from 'react';
 
-interface RestaurantCardProps {
+interface PlaceCardProps {
   href: string;
   name: string;
   image: string;
 }
 
-export function RestaurantCard({ href, name, image }: RestaurantCardProps) {
+export function PlaceCard({ href, name, image }: PlaceCardProps) {
   return (
     <article>
       <a href={href} className="block">
