@@ -7,7 +7,7 @@ export const restaurants = [
   {
     id: 2,
     name: 'Bentosi Asian Cuisine',
-	image: new URL('../assets/places/bentosi.jpg', import.meta.url).toString(),
+    image: new URL('../assets/places/bentosi.jpg', import.meta.url).toString(),
   },
   {
     id: 3,
