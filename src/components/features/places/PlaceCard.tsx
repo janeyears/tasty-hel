@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 interface PlaceCardProps {
   href: string;
@@ -9,7 +10,7 @@ interface PlaceCardProps {
 export function PlaceCard({ href, name, image }: PlaceCardProps) {
   return (
     <article>
-      <a href={href} className="block">
+      <Link to={href} className="block">
         <img
           src={image}
           alt={name}
@@ -18,7 +19,7 @@ export function PlaceCard({ href, name, image }: PlaceCardProps) {
         <span className="mt-4 inline-flex items-center gap-2 font-semibold underline">
           {name} →
         </span>
-      </a>
+      </Link>
     </article>
   );
 }
