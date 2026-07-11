@@ -5,7 +5,7 @@ import { ROUTES } from '../../../routes';
 
 export function PlaceList() {
   return (
-    <section className="py-10">
+    <div className="py-10">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-6 flex justify-center sm:mb-8 sm:justify-end">
           <button type="button" className="text-xl text-primary sm:text-2xl lg:text-3xl">
@@ -24,6 +24,6 @@ export function PlaceList() {
           ))}
         </div>
       </div>
-    </section>
+    </div>
   );
 }

@@ -9,17 +9,15 @@ interface PlaceCardProps {
 
 export function PlaceCard({ href, name, image }: PlaceCardProps) {
   return (
-    <article>
+    <div>
       <Link to={href} className="block">
         <img
           src={image}
           alt={name}
           className="aspect-square w-full rounded-3xl border-2 border-primary object-cover"
         />
-        <span className="mt-4 inline-flex items-center gap-2 font-semibold underline">
-          {name} →
-        </span>
+        <p className="mt-4 inline-flex items-center gap-2 font-semibold underline">{name} →</p>
       </Link>
-    </article>
+    </div>
   );
 }
